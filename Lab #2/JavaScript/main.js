@@ -15,4 +15,4 @@ function getTriangleType (Sides){
     return "Різносторонній";
 };
 
-console.log("Трикутник ABC: " + getTriangleType(getSidesValues(0, 3, -2, 0, 0, 3)));
+console.log("Трикутник ABC: " + getTriangleType(getSidesValues(0, 3, -2, 0, 0, -3)));

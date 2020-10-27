@@ -24,7 +24,7 @@ namespace Lab2
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"Трикутник ABC: {getTriangleType(getSidesValues(0, 3, -2, 0, 0, 3))}");
+            Console.WriteLine($"Трикутник ABC: {getTriangleType(getSidesValues(0, 3, -2, 0, 0, -3))}");
             Console.ReadLine();
         }
     }
